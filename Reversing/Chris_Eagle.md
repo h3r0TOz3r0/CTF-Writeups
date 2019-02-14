@@ -11,16 +11,20 @@ Basic Instruction... Static Analysis
 2. objdump -d <file> ((OPTIONAL) > file_name_to_write_to )
 
 	disassemble 
+	
+3. checksec <file>
+	
+	checks properties of executables
 
-3. xxd <file>
+4. xxd <file>
 
-4. strings <file>
+5. strings <file>
 
-5. readelf -s
+6. readelf -s
 
 	gives all the functions in the ELF
 
-6. IDA Pro
+7. IDA Pro
 
 	use F5 for it to translate assembly to c code
 
